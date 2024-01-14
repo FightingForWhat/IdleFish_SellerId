@@ -10,7 +10,7 @@
 
 1、先看下获取到的数据
 
-()[!demo01.jpg]
+![](demo01.jpg)
 
 取一部分JSON数据看下：
 
@@ -65,7 +65,8 @@
     "serviceUtParams": "[{\"arg1\":\"4_tag_r3_41\",\"args\":{\"LabelSystem2.0\":\"1\",\"content\":\"¥19\"}},{\"arg1\":\"4_tag_r3_9\",\"args\":{\"LabelSystem2.0\":\"1\",\"content\":\"913人想要\"}},{\"arg1\":\"4_tag_r5_664\",\"args\":{\"LabelSystem2.0\":\"1\",\"content\":\"nfrIcon\"}},{\"arg1\":\"4_tag_r1_13\",\"args\":{\"LabelSystem2.0\":\"1\",\"content\":\"freeShippingIcon\"}}]",
     "labelBucketId": "13",
     "zhimaLogBucketId": "13"
-}```
+}
+```
 
 
 可见其中SellerId部分数据，采用了一种类似Base64加密的字符串展示。
@@ -76,7 +77,7 @@
 
 Java实现，看界面就是大家都很熟的IDEA啦
 
-()[!demo02.jpg]
+![](demo02.jpg)
 
 撒花！！！
 
